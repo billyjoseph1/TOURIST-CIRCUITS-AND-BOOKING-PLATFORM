@@ -1,0 +1,60 @@
+/*this is a universal selector styling*/
+*{
+	color: blue;
+	text-decoration: lightblue;
+	opacity: 1.0;
+	text-align: center;
+	text-size-adjust: 10px;
+	
+}
+h1{
+	text-align: center;
+	color: green;
+}
+.btn{
+	float: right(-50%); 
+	margin-left: 15px;
+	margin-top: 0%;
+	border: none;
+	background-color: chartreuse;
+	color:blue ;
+	padding: 15px;
+	border-radius: 10px;
+	position: center;
+}
+.b{
+	background-color: black;
+}
+  
+.fa {  
+  padding: 5px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 20px;  
+  width: 300px; 
+  border-radius: 50%; 
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}   
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+.fa-google {  
+  background: yellow;  
+  color: white;  
+}  
+ 
+  .fa:hover {  
+    opacity: 0.9;  
+} 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internal Styling and JavaScript Example</title>
+    <style>
+        /* Internal CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        #message {
+            font-size: 18px;
+            color: #007bff;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal Styling and JavaScript Example</h1>
+    
+    <p id="message">Click the button below to change this message.</p>
+    
+    <button onclick="changeMessage()">Change Message</button>
+    
+    <script>
+        // JavaScript function to change the message
+        function changeMessage() {
+            var messageElement = document.getElementById('message');
+            messageElement.textContent = 'The message has been changed!';
+            messageElement.style.color = 'green';
+        }
+    </script>
+</body>
+</html>
